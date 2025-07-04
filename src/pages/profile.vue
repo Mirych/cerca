@@ -4,3 +4,9 @@
     <p class="text-gray-600">Информация о вас и ваши отзывы.</p>
   </div>
 </template>
+
+<script setup lang="ts">
+definePageMeta({
+  requiresAuth: true
+})
+</script>
